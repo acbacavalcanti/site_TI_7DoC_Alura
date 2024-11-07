@@ -1,0 +1,108 @@
+/*depoimentos e foooter*/
+
+/*inicio de depoimentos*/
+
+.depoimentos {
+    background-color: #C3191908;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6em;
+    padding: 5em 6em;
+    text-align: center;
+}
+.depoimentos__sobretitulo {
+    font-size: 0.875em;
+    font-weight: 600;
+    color: var(--vermelho-destaque);
+}
+
+.depoimentos__titulo {
+    font-size: 2.25em;
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+.depoimentos__imagem {
+    width: 50%;
+    object-fit: cover;
+    padding: 2em 0em 1em 0
+}
+.depoimentos__nome {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--preto-texto);
+    margin-bottom: 0.5em;
+}
+.depimentos__cargo {
+    font-size: 0.875em;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+/*inicio do footer*/
+
+.rodape__formulario {
+    background-color: var(--cinza-footer);
+    margin: 5em 0 0 0;
+    padding: 6em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario__titulo {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: var(--preto-texto);
+    margin-bottom: 1em;
+}
+
+.formulario__descricao {
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 2em;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.form__email {
+    max-width: 20em;
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+.form__botao {
+    width: 7em;
+    padding: 12px;
+    background-color: #8E2424;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form__botao:hover {
+    background-color: var(--vermelho-claro);
+}
+
+.rodape__copy {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cinza-medio);
+}
