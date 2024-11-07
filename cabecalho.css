@@ -5,8 +5,7 @@
 .cabecalho {
     background-color: var(--branco-background);
     text-align: center;
-    margin: 0em 6em;
-    padding: 4em;
+    margin: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,14 +26,15 @@
     font-size: 1.25em;
     color: var(--cinza);
     font-weight: 400;
+    padding: 0 12em;
 }
 
 /*inicio de metricas*/
 .metricas{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin: 5em 8em 12em 8em;
-    gap: 4em;
+    margin: 8em;
+    gap: 2.5em;
 }
 .metricas__item {
     display: flex;
